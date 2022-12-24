@@ -1,10 +1,10 @@
 using System.Text.RegularExpressions;
 
-User Roman = new();
-User_Info Roman_Info = new("Roman","Tyshkevich",19);
-Roman.User_Event +=Roman_Info.User_Upgrade;
-Roman.User_Event += Roman_Info.User_Work;
-Roman.On_User_Event();
+User Sasha = new();
+User_Info Roman_Info = new("Sasha","Grishkovets",20);
+Sasha.User_Event += Sasha_Info.User_Upgrade;
+Sasha.User_Event += Sasha_Info.User_Work;
+Sasha.On_User_Event();
 
 Console.WriteLine("-----");
 
